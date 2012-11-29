@@ -11,7 +11,6 @@ module.exports = function(app){
 			if(err){
 				res.send("Error: " + err);
 			}else{
-				console.log(articles);
 				res.render('list', {
 					title: app.get('name'),
 					articles: articles,
