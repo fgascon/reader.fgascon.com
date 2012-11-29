@@ -13,8 +13,7 @@ module.exports = function(app){
 			}else{
 				res.render('list', {
 					title: app.get('name'),
-					articles: articles,
-					tests: [{a:'123'},{b:'456'}]
+					articles: articles
 				})
 			}
 		});
